@@ -1,10 +1,16 @@
-
 h1 {
-    text-decoration: underline;
-    color: #1d6dbd;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: normal;
+    color: #efefef;
+    background-color: #9ACA42;
+    margin: 2px 0px 20px 0px;
+    padding: 5px;
+    border-bottom: 2px solid #4D8353;
 }
+
 p {
-    padding-left: 20px;
-    font-size: 18px;
+    margin: 10px 0px 10px 30px;
+    color: #357180;
+    font-size: 16px;
 }
-    
