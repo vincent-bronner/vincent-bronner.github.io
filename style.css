@@ -1,16 +1,72 @@
-h1 {
-    font-family: Arial;
-    font-size: 24px;
-    font-weight: normal;
-    color: #efefef;
-    background-color: #9ACA42;
-    margin: 2px 0px 20px 0px;
-    padding: 5px;
-    border-bottom: 2px solid #4D8353;
+/* Reset some default styles for better control */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    margin: 10px 0px 10px 30px;
-    color: #357180;
-    font-size: 16px;
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Links styles */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
